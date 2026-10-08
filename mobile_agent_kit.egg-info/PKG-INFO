@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: mobile-agent-kit
+Version: 0.1.0
+Summary: Bare-Metal Physical Android AI Agent Framework with Security-First Baseline
+Author: Bare-Metal AI Agent (@kxx2026)
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=3.8
+License-File: LICENSE
+Dynamic: author
+Dynamic: classifier
+Dynamic: license-file
+Dynamic: requires-python
+Dynamic: summary

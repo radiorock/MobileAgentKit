@@ -22,7 +22,7 @@ def main():
     _, is_clean, violations = PrivacyGuard.sanitize(sample_safe_text)
     print(f"[Privacy] Clean text test passed: {is_clean}")
     
-    sample_leak = "Private key 0x4f3edf983ac636a65a842ce7c78d9aa706d3b113bce9c46f30d7d21715b23b1d must be protected"
+    sample_leak = "Private key 0x" + "11" * 32 + " must be protected"
     sanitized, is_clean, violations = PrivacyGuard.sanitize(sample_leak)
     print(f"[Privacy] Leak interception test: Intercepted={not is_clean}, Rules={violations}")
     print(f"[Privacy] Redacted output: {sanitized}")
